@@ -5,3 +5,35 @@ h1{
     background-color: aqua;
     border: 13px double black;
 }
+
+h2{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: 2px dotted rgb(11, 44, 190);
+}
+
+.Edad{
+    width: 70px;
+}
+
+.Domicilio{
+    width: 120px;
+}
+
+.Las-series-que-me-gustan{
+    width: 360px;
+}
+
+.Las-peliculas-que-me-gustan-son{
+    width: 390px;
+}
+
+.Perfil{
+    width: 65px;
+}
+
+h3{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
