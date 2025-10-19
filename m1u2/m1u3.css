@@ -30,10 +30,19 @@ h2{
 }
 
 .Perfil{
-    width: 65px;
+    width: 120px;
 }
 
 h3{
     color: blue;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.Textos-en-negrita{
+    font-weight: bold;
+}
+
+.Texto-sobre-mi{
+   background-color: aqua;
+   border: 20px ridge black;
 }
