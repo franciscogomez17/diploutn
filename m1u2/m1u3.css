@@ -1,6 +1,6 @@
 h1{
     color: blue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat';
     text-align: center;
     background-color: aqua;
     border: 13px double black;
@@ -8,7 +8,7 @@ h1{
 
 h2{
     color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
     background-color: black;
     border: 2px dotted rgb(11, 44, 190);
     box-shadow: 0 0 20px #0c0c0c;
@@ -16,23 +16,23 @@ h2{
 }
 
 .Edad{
-    width: 70px;
+    width: 80px;
 }
 
 .Domicilio{
-    width: 155px;
+    width: 165px;
 }
 
 .Las-series-que-me-gustan{
-    width: 390px;
+    width: 415px;
 }
 
 .Las-peliculas-que-me-gustan-son{
-    width: 420px;
+    width: 455px;
 }
 
 .Perfil{
-    width: 150px;
+    width: 160px;
 }
 
 h3{
@@ -51,4 +51,5 @@ h3{
    column-count: 2;
    column-gap: 5px;
    border-radius: 10px;
+   font-family: 'Montserrat';
 }
