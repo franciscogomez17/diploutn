@@ -1,0 +1,119 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.contenedor{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row;
+}
+
+.caja1{
+    display: flex;
+    background-color: chocolate;
+    color: white;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    left: -8px;
+    transition: all 0.5 linear;
+}
+
+.caja1 li{
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.caja1:hover{
+    background-color: orange;
+}
+
+.caja2{
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    width: 800px;
+    height: 250px;
+    transition: all 0.5 linear;
+}
+.caja2:hover{
+    transform: scale(0.9);
+}
+
+.caja2 h2{
+    font-size: 35px;
+}
+
+.caja3{
+    display: flex;
+    background-color: darkgrey;
+    flex-direction: column;
+    width: 500px;
+    height: 580px;
+    position: relative;
+    right: -8px;
+    transition: all 0.5 ease;
+}
+
+.caja3 h2{
+    font-size: 35px;
+}
+
+.caja3:hover{
+    opacity: 0.7;
+}
+
+@media (max-width: 800px){
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja1{
+        width: 120%;
+        height: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 15px;
+    }
+
+    .caja1 li{
+        position: relative;
+        top: 3px;
+    }
+
+    .caja2{
+        width: 104%;
+        height: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 15px;
+    }
+
+    .caja2 h2{
+        font-size: 23px;
+    }
+
+    .caja3{
+         width: 104%;
+        height: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 15px;
+    }
+
+    .caja3 h2{
+        font-size: 23px;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: left;
+    }
+
+}
