@@ -1,5 +1,7 @@
 body{
     background-color: cadetblue;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -19,7 +21,6 @@ h1{
     width: 300px;
     height: 150px;
     position: relative;
-    left: -8px;
     transition: all 0.5 linear;
 }
 
@@ -39,7 +40,7 @@ h1{
     flex-direction: column;
     width: 800px;
     height: 250px;
-    transition: all 0.5 linear;
+    transition: all 0.5s linear;
 }
 .caja2:hover{
     transform: scale(0.9);
@@ -56,8 +57,7 @@ h1{
     width: 500px;
     height: 580px;
     position: relative;
-    right: -8px;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
 }
 
 .caja3 h2{
@@ -75,10 +75,8 @@ h1{
     }
 
     .caja1{
-        width: 127%;
+        width: 100%;
         height: auto;
-        left: 0;
-        right: 0;
         margin-bottom: 15px;
     }
 
@@ -88,11 +86,9 @@ h1{
     }
 
     .caja2{
-        width: 115%;
+        width: 100%;
         height: auto;
         margin-bottom: 15px;
-        position: relative;
-        left: 20px;
     }
 
     .caja2 h2{
@@ -100,11 +96,9 @@ h1{
     }
 
     .caja3{
-        width: 115%;
+        width: 100%;
         height: auto;
         margin-bottom: 15px;
-        position: relative;
-        left: 20px;
     }
 
     .caja3 h2{
