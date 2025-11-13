@@ -68,7 +68,7 @@ h1{
     opacity: 0.7;
 }
 
-@media (max-width: 800px){
+@media (max-width: 768px){
     .contenedor{
         flex-direction: column;
         align-items: center;
@@ -88,11 +88,11 @@ h1{
     }
 
     .caja2{
-        width: 104%;
+        width: 115%;
         height: auto;
-        left: 0;
-        right: 0;
         margin-bottom: 15px;
+        position: relative;
+        left: 20px;
     }
 
     .caja2 h2{
@@ -100,11 +100,11 @@ h1{
     }
 
     .caja3{
-         width: 104%;
+        width: 112%;
         height: auto;
-        left: 0;
-        right: 0;
         margin-bottom: 15px;
+        position: relative;
+        left: 14px;
     }
 
     .caja3 h2{
