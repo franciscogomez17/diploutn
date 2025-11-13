@@ -21,7 +21,6 @@ h1{
     color: white;
     width: 300px;
     height: 150px;
-    position: relative;
     transition: all 0.5 linear;
 }
 
