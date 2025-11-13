@@ -84,10 +84,14 @@ h1{
         padding: 0;
     }
 
+    .caja2{
+        border: 1px solid black;
+    }
+
     .caja3{
         flex-grow: 1;
     }
-    
+
     .caja1 li{
         position: relative;
         top: 3px;
