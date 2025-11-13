@@ -1,0 +1,15 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control{
+    border: 1px solid black;
+}
+
+.btn{
+    border: 1px solid black;
+}
+
+.form-label{
+    font-weight: 550;
+}
