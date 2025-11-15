@@ -1,0 +1,140 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.mi-navbar{
+    background-color: rgb(192, 125, 105);
+    margin-bottom: 10px;
+}
+
+.mi-navbar img{
+    width: 6%;
+    padding-right: 0;
+    margin-right: 15px;
+    float: right;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(233, 177, 160);
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px;
+    margin: auto;
+}
+
+h2{
+    color: rgb(126, 81, 68);
+    font-weight: 400;
+}
+
+.Bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.Testimonios{
+    width: 25%;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonio{
+    background-color: bisque;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    background-color: burlywood;
+    display: block;
+    margin: 12px;
+}
+
+.historia h2{
+    text-align: center;
+}
+
+.historia p{
+    font-size: 14px;
+}
+
+.staff h2{
+    text-align: center;
+}
+
+.persona{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.persona{
+    border: 1px solid rgb(192, 125, 105);
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 40%;
+    box-shadow: 0 0 5px grey;
+}
+
+.persona h5, .persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: rgb(172, 111, 93);
+}
+
+.persona h5{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.persona h6{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.persona p{
+    color: #333;
+    font-size: 11px;
+}
