@@ -168,3 +168,58 @@ h2{
     max-width: 220px;
 }
 
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 12px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(5) {
+    align-items: start;
+}
+
+.formulario p:nth-child(4) {
+    gap: 10px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background-color: rgb(192, 125, 105);
+    box-shadow: 0 0 10px rgb(192, 125, 105);
+    color: white;
+    font-size: 15px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(163, 106, 89);
+}
