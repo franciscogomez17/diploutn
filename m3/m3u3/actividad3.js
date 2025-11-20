@@ -1,6 +1,6 @@
 //Actividad 1
 function CalcularPromedio() {
-    let sumanotas = nota1 + nota2;
+    sumanotas = nota1 + nota2;
     let promedio = sumanotas / 2;
 
     return promedio;
@@ -8,7 +8,6 @@ function CalcularPromedio() {
 
 let nota1 = 9;
 let nota2 = 6;
->>>>>>> f64ffddb7fe3690c44173a77e26299d063f0f1a2
 
 let resultado = CalcularPromedio();
 
