@@ -1,11 +1,24 @@
-let nota1 = a;
-let nota2 = b;
+//Actividad 1
+function CalcularPromedio() {
+    let sumanotas = nota1 + nota2;
+    let promedio = sumanotas / 2;
 
-function promedio(a,b){
-    sumanotas = a + b;
-
-    promedio = sumanotas/2
-
-    return `El promedio anual de la materia historia es: ${promedio}`;
+    return promedio;
 }
 
+let nota1 = 9;
+let nota2 = 6;
+>>>>>>> f64ffddb7fe3690c44173a77e26299d063f0f1a2
+
+let resultado = CalcularPromedio();
+
+
+console.log(`El promedio de la materia historia es: ${resultado}`);
+
+//Actividad 2
+const textarea = document.getElementById("mensaje");
+const contador = document.getElementById("contador");
+
+textarea.addEventListener("input", function () {
+    contador.textContent = textarea.value.length;
+});
