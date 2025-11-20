@@ -1,11 +1,11 @@
-let promedio;
-let sumanotas;
-let numero1 = 9;
-let numero2 = 7;
+let nota1 = a;
+let nota2 = b;
 
-sumanotas = numero1 + numero2;
-promedio = sumanotas/2;
+function promedio(a,b){
+    sumanotas = a + b;
 
-console.log(`El promedio de la materia historia es: ${promedio}`);
-alert(`El promedio de la materia historia es: ${promedio}`);
+    promedio = sumanotas/2
+
+    return `El promedio anual de la materia historia es: ${promedio}`;
+}
 
